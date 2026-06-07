@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nickol Grace Toriba Osic — Portfolio</title>
+  <meta name="description" content="Portfolio of Nickol Grace Toriba Osic — Aspiring Graphic Designer." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="bg-field"></div>
+  <div class="bg-grid"></div>
+  <div class="scroll-progress" id="progress"></div>
+
+  <!-- ============ NAVIGATION ============ -->
+  <nav>
+    <a href="#home" class="brand">
+      <span class="nm">Nickol Grace</span>
+    </a>
+    <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+    <div class="nav-links" id="navlinks">
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#contact" class="nav-cta">Get in touch</a>
+    </div>
+  </nav>
+
+  <!-- ============ COVER / HEADER ============ -->
+  <header class="cover" id="home">
+    <div class="blob b1"></div>
+    <div class="blob b2"></div>
+    <div class="ringline rl1"></div>
+    <div class="ringline rl2"></div>
+    <div class="cover-inner">
+      <div class="cover-text reveal">
+        <span class="status-pill"><span class="dot"></span> Open to internships &amp; design opportunities</span>
+        <h1>Nickol Grace Toriba Osic</h1>
+        <p class="role"></p>
+        <p class="tag">A detail-driven creative blending visual design with a passion for continuous learning — crafting clean, purposeful work that leaves a positive impression.</p>
+        <div class="cover-cta">
+          <a href="#projects" class="btn btn-primary">View my work
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="17" height="17"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a href="#contact" class="btn btn-ghost">Contact me</a>
+        </div>
+        <div class="cover-meta">
+          <div class="m"><b>2+</b><span>Years studying design</span></div>
+          <div class="m"><b>6+</b><span>Core skills</span></div>
+          <div class="m"><b>100%</b><span>Eager to learn</span></div>
+        </div>
+      </div>
+
+      <div class="photo-wrap reveal">
+        <div class="photo-frame">
+          <div class="photo">
+            <!-- TO ADD A REAL PHOTO: replace the two lines below with
+                 <img src="your-photo.jpg" alt="Nickol Grace Toriba Osic" /> -->
+                 
+            <span class="ph-init">NG</span>
+            <span class="ph-note">Add photo here<img src="images/558109054_1932365957695386_6177667729574557126_n.png" alt="" /></span>
+          </div>
+        </div>
+        <div class="badge-float bf1">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg>
+          <div><b>Canva &amp; Illustrator</b><span>Design tools</span></div>
+        </div>
+        <div class="badge-float bf2">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg>
+          <div><b>Proficient in HTML/CSS</b><span>VS Code</span></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ ABOUT ============ -->
+  <section id="about">
+    <span class="eyebrow reveal">About Me</span>
+    <h2 class="title reveal">Curious by nature, <em>creative</em> by choice.</h2>
+    <div class="about-grid">
+      <div class="about-body reveal">
+        <p>Passionate about <strong>technology, creativity, and continuous learning,</strong> I enjoy building projects that combine functionality with thoughtful design. As an Information Systems student, I am constantly exploring new tools, ideas, and approaches that help me grow both technically and creatively.</p>
+        <p>I believe that every project is an opportunity to learn, solve problems, and create meaningful experiences. My goal is to develop solutions that not only work efficiently but also leave a lasting impact on the people who use them.</p>
+        <div class="strength-row">
+          <span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg> Detail-oriented</span>
+          <span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/></svg> Collaborative</span>
+          <span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4"/></svg> Adaptable</span>
+          <span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg> Quick learner</span>
+        </div>
+      </div>
+      <aside class="facts reveal">
+        <h3>Quick Facts</h3>
+        <p class="sub">Personal details</p>
+        <div class="fact"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg></span><div><div class="lbl">Date of Birth</div><div class="val">April 29, 2005</div></div></div>
+        <div class="fact"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="5"/><path d="M20 21a8 8 0 0 0-16 0"/></svg></span><div><div class="lbl">Age</div><div class="val">21 years old</div></div></div>
+        <div class="fact"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7z"/><circle cx="12" cy="12" r="3"/></svg></span><div><div class="lbl">Nationality</div><div class="val">Filipino</div></div></div>
+        <div class="fact"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span><div><div class="lbl">Based in</div><div class="val">Davao Region, PH</div></div></div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ============ EDUCATION ============ -->
+  <section id="education">
+    <span class="eyebrow reveal">Education</span>
+    <h2 class="title reveal">My academic <em>journey</em>.</h2>
+    <p class="lead reveal">A foundation built on consistency, curiosity, and a steady drive toward the creative field.</p>
+    <div class="timeline stagger">
+      <div class="tl-item">
+        <span class="tl-node"></span>
+        <div class="tl-card">
+          <span class="tl-when">2026 — Present</span>
+          <h3>College Student</h3>
+          <p class="org">Davao del Norte State College</p>
+          <p>Currently taking a Bachelor of Science in Information Systems, eager to learn and grow in the fields of technology, system analysis, and problem-solving. I enjoy exploring new ideas, developing my skills through hands-on projects, and continuously expanding my knowledge to adapt to the ever-evolving world of technology.</em></p>
+          <div class="tags"><span>Visual Design</span><span>Digital Tools</span><span>Teamwork</span></div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <span class="tl-node"></span>
+        <div class="tl-card">
+          <span class="tl-when">2022 — 2023</span>
+          <h3>Senior High School Graduate</h3>
+          <p class="org">Panabo City Senior High School</p>
+          <ul>
+            <li>Completed Senior High School with a focus on building strong academic foundations.</li>
+            <li>Built essential skills in communication, teamwork, and problem-solving through various academic experiences.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section id="skills">
+    <span class="eyebrow reveal">Skills</span>
+    <h2 class="title reveal">What I bring to the <em>table</em>.</h2>
+    <p class="lead reveal">A growing mix of creative tools, technical know-how, and the people skills that make collaboration effortless.</p>
+    <div class="skills-grid stagger">
+      <div class="skill-card">
+        <div class="head"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="13.5" cy="6.5" r=".5" fill="currentColor"/><circle cx="17.5" cy="10.5" r=".5" fill="currentColor"/><circle cx="8.5" cy="7.5" r=".5" fill="currentColor"/><circle cx="6.5" cy="12.5" r=".5" fill="currentColor"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z"/></svg></span><div><h3>Graphic &amp; Visual Design</h3><span>Creative tools</span></div></div>
+        <div class="bar"><div class="row"><b>Canva</b><em>Proficient</em></div><div class="track"><div class="fill" data-w="95%"></div></div></div>
+        <div class="bar"><div class="row"><b>Adobe Illustrator</b><em>Foundational</em></div><div class="track"><div class="fill" data-w="62%"></div></div></div>
+        <div class="bar"><div class="row"><b>Layout &amp; Composition</b><em>Developing</em></div><div class="track"><div class="fill" data-w="50%"></div></div></div>
+      </div>
+      <div class="skill-card">
+        <div class="head"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></span><div><h3>Tech &amp; Productivity</h3><span>Digital fluency</span></div></div>
+        <div class="bar"><div class="row"><b>MS Office (Word, Excel, PPT)</b><em>Proficient</em></div><div class="track"><div class="fill" data-w="90%"></div></div></div>
+        <div class="bar"><div class="row"><b>HTML</b><em>Foundational</em></div><div class="track"><div class="fill" data-w="70%"></div></div></div>
+        <div class="bar"><div class="row"><b>CSS</b><em>Foundational</em></div><div class="track"><div class="fill" data-w="70%"></div></div></div>
+      </div>
+      <div class="skill-card soft-wrap">
+        <div class="head"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20.94c1.5 0 2.75 1.06 4 1.06 3 0 6-8 6-12.22A4.91 4.91 0 0 0 17 5c-2.22 0-4 1.44-5 2-1-.56-2.78-2-5-2a4.9 4.9 0 0 0-5 4.78C2 14 5 22 8 22c1.25 0 2.5-1.06 4-1.06z"/></svg></span><div><h3>Soft Skills</h3><span>The human side of great work</span></div></div>
+        <div class="soft-grid">
+          <span class="soft"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></span><b>Strong communication</b></span>
+          <span class="soft"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></span><b>Team collaboration</b></span>
+          <span class="soft"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4"/></svg></span><b>Adaptability</b></span>
+          <span class="soft"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg></span><b>Eager to learn</b></span>
+          <span class="soft"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg></span><b>Attention to detail</b></span>
+          <span class="soft"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></span><b>Problem-solving</b></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE ============ -->
+    
+  <section id="experience">
+    <span class="eyebrow reveal">Experience</span>
+    <h2 class="title reveal">Where I've put skills to <em>work</em>.</h2>
+    <p class="lead reveal">Roles and activities that shaped how I create, collaborate, and deliver.</p>
+    <div class="timeline stagger">
+      <div class="tl-item">
+        <span class="tl-node"></span>
+        <div class="tl-card">
+          <span class="tl-when">2025</span>
+          <h3>Ideothon Paticipant</h3>
+          <p class="org">School Organization & Base Philippines</p>
+          <ul>
+            <li>Introduced to blockchain technology and its basic concepts</li>
+            <li>Utilized AI tools to assist in building and developing ideas</li>
+          </ul>
+          <div class="tags"><span>AI</span><span>VS Code</span><span>Teamwork</span></div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <span class="tl-node"></span>
+        <div class="tl-card">
+          <span class="tl-when">2025</span>
+          <h3>Academic Projects</h3>
+          <p class="org">Academic-based learning and self-directed</p>
+          <ul>
+            <li>Designed a full website featuring coffee shops using HTML and CSS.</li>
+            <li>Gained experience in building simple static websites</li>
+          </ul>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>Self-learning</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <!-- EDIT: sample project cards. Replace titles, descriptions & outcomes. -->
+  <section id="projects">
+    <span class="eyebrow reveal">Projects</span>
+    <h2 class="title reveal">Selected <em>work</em> &amp; experiments.</h2>
+    <p class="lead reveal">A snapshot of what I love creating.</p>
+    <div class="proj-grid stagger">
+      <a href="Images/First-Year Projects.png" target="_blank" class="proj">
+        <div class="cover-art pc1">
+          <img src="images/First-Year Projects.png" alt="Output Projects" />
+        </div>
+        <div class="body">
+          <span class="kicker">Beginner Design</span>
+          <h3>Output Projects</h3>
+          <p>A collection of first-year college projects created using Adobe photoshop, aimed at strengthening foundational skills in design and illustration through hands-on practice and academic activities.</p>
+          <div class="outcome"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Cohesive illustrations &amp; Beginner Layouts</div>
+          <div class="tags"><span>Illustrator</span><span>Photography</span><span>Layouts</span></div>
+        </div>
+      </a>
+      <a href="images/Tarp.png" target="_blank" class="proj">
+        <div class="cover-art pc2">
+          <img src="images/Tarp.png" alt="Birthday Tarpaulin Design" />
+        </div>
+        <div class="body">
+            
+          <span class="kicker"> Print Design</span>
+          <h3> Birthday Tarpaulin Design</h3>
+          <p>Designed a personalized birthday tarpaulin using Canva, incorporating custom layouts, typography, color schemes, and celebratory graphics based on client preferences.</p>
+          <div class="outcome"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Event visibility</div>
+          <div class="tags"><span>Canva</span><span>Layout</span><span>Typography</span></div>
+        </div>
+      </a>
+      <a href="images/Personal-Portfolio-Site.png" target="_blank" class="proj">
+        <div class="cover-art pc3">
+          <img src="images/Html.png" alt="Personal Portfolio Site" />
+        </div>
+        <div class="body">
+          <span class="kicker">Web Design</span>
+          <h3>Featuring Coffee Shops</h3>
+          <p>Designed and developed a website for promoting and advertising coffee shops, featuring business information, product highlights, location details, and an engaging user interface to attract potential customers.</p>
+          <div class="outcome"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Responsive, professional layout</div>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>UI Design</span></div>
+        </div>
+      </a>
+    </div> <br>
+    <span class="eyebrow reveal">The projects showcased above represent only a portion of my work, with many additional projects completed throughout my academic and personal development.</span>
+  </section>
+
+  <!-- ============ ACHIEVEMENTS / CERTIFICATIONS ============ -->
+  <!-- EDIT: add your real certifications, trainings, and recognitions. -->
+  <section id="achievements">
+    <span class="eyebrow reveal">Certifications &amp; Achievements</span>
+    <h2 class="title reveal">Milestones &amp; <em>recognition</em>.</h2>
+    <div class="ach-grid stagger">
+      <div class="ach">
+        <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></span>
+        <div><div class="yr">2023</div><h3>Senior High School Graduate</h3><p>Successfully completed Senior High School at Panabo City Senior High School.</p></div>
+      </div>
+      <div class="ach">
+        <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg></span>
+        <div><div class="yr">2026</div><h3>Junior Cybersecurity Analyst Career Path</h3><p>Gained foundational knowledge in cybersecurity, threat awareness, and security best practices.</p></div>
+      </div>
+      <div class="ach">
+        <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 15a7 7 0 1 0 0-14 7 7 0 0 0 0 14z"/><path d="M8.21 13.89L7 23l5-3 5 3-1.21-9.12"/></svg></span>
+        <div><div class="yr">2026</div><h3>HTML Essentials</h3><p>Learned the fundamentals of HTML and applied them to create structured and responsive web pages.</p></div>
+      </div>
+      <div class="ach">
+        <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 9V5a3 3 0 0 0-6 0v4M5 9h14l1 12H4z"/></svg></span>
+        <div><div class="yr">2025</div><h3>Security Alerts</h3><p>Completed a learning session covering the importance of security alerts, threat recognition, and appropriate response procedures for maintaining cybersecurity and safety.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact" class="contact">
+    <div class="contact-card reveal">
+      <span class="eyebrow">Get in touch</span>
+      <h2>Let's create something <em>meaningful</em> together.</h2>
+      <p class="sub">I'm open to internships, design opportunities, and collaborations. Feel free to reach out — I'd love to connect.</p>
+      <div class="contact-list">
+        <a class="ct" href="mailto:osic.nickolgrace@dnsc.edu.ph">
+          <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 7l-10 6L2 7"/></svg></span>
+          <div><div class="lbl">Email</div><div class="val">osic.nickolgrace@dnsc.edu.ph</div></div>
+        </a>
+        <a class="ct" href="tel:#">
+          <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.69 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.33 1.85.56 2.81.69A2 2 0 0 1 22 16.92z"/></svg></span>
+          <div><div class="lbl">Phone</div><div class="val">09350776916</div></div>
+        </a>
+        <a class="ct" href="#">
+          <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></span>
+          <div><div class="lbl">LinkedIn</div><div class="val">Nickol Grace Osic</div></div>
+        </a>
+        <a class="ct" href="#">
+          <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></span>
+          <div><div class="lbl">Portfolio / Behance</div><div class="val">Nickol Grace</div></div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer>
+    <b>Nickol Grace Toriba Osic</b><span class="dot">•</span> <span class="dot">•</span> Davao Region, Philippines
+  </footer>
+
+  <!-- ============ SCRIPTS ============ -->
+  <script>
+    // Mobile menu toggle
+    const burger = document.getElementById('burger');
+    const navlinks = document.getElementById('navlinks');
+    burger.addEventListener('click', () => navlinks.classList.toggle('open'));
+    navlinks.querySelectorAll('a').forEach(a =>
+      a.addEventListener('click', () => navlinks.classList.remove('open'))
+    );
+
+    // Scroll progress bar
+    const progress = document.getElementById('progress');
+    window.addEventListener('scroll', () => {
+      const h = document.documentElement;
+      const sc = (h.scrollTop) / (h.scrollHeight - h.clientHeight) * 100;
+      progress.style.width = sc + '%';
+    });
+
+    // Reveal on scroll (and animate skill bars)
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('in');
+          e.target.querySelectorAll('.fill').forEach(f => f.style.width = f.dataset.w);
+          io.unobserve(e.target);
+        }
+      });
+    }, { threshold: .16 });
+    document.querySelectorAll('.reveal,.stagger').forEach(el => io.observe(el));
+
+    // Active nav link highlighting
+    const sections = [...document.querySelectorAll('section[id],header[id]')];
+    const links = [...document.querySelectorAll('.nav-links a')];
+    const spy = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          links.forEach(l =>
+            l.classList.toggle('active',
+              l.getAttribute('href') === '#' + e.target.id && !l.classList.contains('nav-cta'))
+          );
+        }
+      });
+    }, { rootMargin: '-45% 0px -50% 0px' });
+    sections.forEach(s => spy.observe(s));
+  </script>
+</body>
+</html>
